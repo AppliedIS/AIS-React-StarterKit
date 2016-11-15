@@ -1,10 +1,14 @@
-/* Styles */
+
 body {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1.4em;
-  color: #4d4d4d;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  font-weight: 300;
+    background: $clr-background;
+    color: $clr-txt;
+}
+
+a {
+    color: $clr-links-out;
+    text-decoration: none;
+
+    &:hover {
+        color: $clr-links-hover;
+    }
 }

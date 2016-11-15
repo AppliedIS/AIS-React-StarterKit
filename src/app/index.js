@@ -13,7 +13,6 @@ import routes from './routes';
 
 // Import application assets so webpack can process them
 require('../favicon.ico');
-import '../sass/main.scss';
 
 //const store = configureStore();
 

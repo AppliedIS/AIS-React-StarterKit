@@ -1,3 +1,11 @@
-@import '~normalize.css/normalize';
+// Libraries
+@import 'normalize.css/normalize.css';
 
+// Defaults
+@import 'defaults/colors';
+@import 'defaults/typography';
 @import 'defaults/tags';
+
+// Components
+
+// Pages
