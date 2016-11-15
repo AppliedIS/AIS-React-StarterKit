@@ -4,8 +4,8 @@ import { Link, IndexLink } from 'react-router';
 const NavbarTemplate = (props) => {
     return (
         <div>
-            <IndexLink to="/"> Home </IndexLink> |
-            <Link to="/about"> About </Link>
+            <IndexLink to="/"> <i className="fa fa-home" aria-hidden="true"></i> Home </IndexLink> |
+            <Link to="/about"> <i className="fa fa-cog" aria-hidden="true"></i> About </Link>
         </div>
     );
 };
